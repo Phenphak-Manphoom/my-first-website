@@ -1,6 +1,16 @@
 .App {
-  text-align: center;
+  text-align: left;
+  margin: 20px;
+
 }
+.display-john{
+  text-align:left;
+  margin-left: 20px;
+}
+.list-items{
+  margin-left:20px;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -15,6 +25,7 @@
 
 .App-header {
   background-color: #282c34;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,6 +43,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
