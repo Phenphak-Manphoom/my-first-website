@@ -2,8 +2,8 @@ import { ChakraProvider, Stack } from "@chakra-ui/react";
 import { Button } from "@chakra-ui/react";
 import { Spinner } from "@chakra-ui/react";
 import { Input } from "@chakra-ui/react";
-import DisplayJohn from "./components/DisplayJohn";
-import { JohnProfile } from "./components/DisplayJohn";
+import DisplayJohn, { JohnProfile } from "./components/DisplayJohn";
+
 import "./App.css";
 
 function App() {
