@@ -3,7 +3,7 @@ import { Button } from "@chakra-ui/react";
 import { Spinner } from "@chakra-ui/react";
 import { Input } from "@chakra-ui/react";
 import DisplayJohn from "./components/DisplayJohn";
-import {JohnProfile}  from "./components/DisplayJohn";
+import { JohnProfile } from "./components/DisplayJohn";
 import "./App.css";
 
 function App() {
@@ -34,10 +34,9 @@ function App() {
           <Input variant="flushed" placeholder="Flushed" />
         </Stack>
       </ChakraProvider>
-      <div className="display-john">
+
       <DisplayJohn />
       <JohnProfile />
-      </div>
     </div>
   );
 }
